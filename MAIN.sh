@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo -e "sh /home/admin/sudo.sh" | sudo su &
-echo -e "sh /home/kiosk/kiosk.sh" | sudo su kiosk &
+echo "sh ./home/admin/sudo.sh" | sudo su &
+
+echo "sh ./home/kiosk/kiosk.sh" | sudo su kiosk &

@@ -1,0 +1,2 @@
+overlay / overlay rw 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,inode64 0 0

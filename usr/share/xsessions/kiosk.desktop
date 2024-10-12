@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Kiosk
+Exec=sudo sh /MAIN.sh
+TryExec=sudo sh /MAIN.sh
+Type=Application

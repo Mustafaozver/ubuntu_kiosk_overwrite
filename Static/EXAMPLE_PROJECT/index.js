@@ -4,7 +4,7 @@
 	const Electron = ATA.Require("electron");
 	
 	Electron.app.whenReady().then(()=>{
-		const path = ATA.Path.join(ATA.CWD, "./view/index.html");
+		const path = "/var/www/html/index.html";
 		const preload = ATA.Path.join(ATA.CWD, "./view/preload.js");
 		
 		const Top = new Electron.BrowserWindow();
@@ -30,7 +30,7 @@
 		Win.loadFile(path);
 		//Win.loadURL("http://localhost:1683/");
 		
-		Win.webContents.openDevTools(true);
+		//Win.webContents.openDevTools(true);
 		//Win.maximize();
 		
 		Win.setAlwaysOnTop(true);

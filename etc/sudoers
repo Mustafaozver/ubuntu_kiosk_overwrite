@@ -8,9 +8,8 @@ root    ALL=(ALL:ALL) ALL
 %sudo   ALL=(ALL:ALL) ALL
 @includedir /etc/sudoers.d
 
+
 admin ALL=(ALL:ALL) NOPASSWD: ALL
 sandbox ALL=(ALL:ALL) ALL,!ALL
-
 kiosk ALL=(ALL:ALL) NOPASSWD: ALL
-
 sshuser ALL=(ALL) NOPASSWD: ALL

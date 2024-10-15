@@ -1,6 +1,6 @@
 deb http://archive.ubuntu.com/ubuntu/ noble universe restricted main multiverse
-deb http://security.ubuntu.com/ubuntu/ noble-security universe restricted main multiverse
-deb http://archive.ubuntu.com/ubuntu/ noble-updates universe restricted main multiverse
+## deb http://security.ubuntu.com/ubuntu/ noble-security universe restricted main multiverse
+## deb http://archive.ubuntu.com/ubuntu/ noble-updates universe restricted main multiverse
 
 ## deb http://linuxmirrors.ir/pub/ubuntu/ noble main restricted universe multiverse
 ## deb http://mirror.daniel-jost.net/ubuntu/ noble main restricted universe multiverse
